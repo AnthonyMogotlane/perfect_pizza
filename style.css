@@ -1,0 +1,31 @@
+body {
+    background: #6969B3;
+}
+
+h1 {
+    color: #c7f9cc;
+}
+
+h2 {
+    color: #80ED99;
+}
+
+h3 {
+    color: #22577A;
+}
+
+h4 {
+    color: #38A3A5;
+}
+
+.small img { 
+    width: 4em; 
+}
+
+.medium img { 
+    width: 5em;
+ }
+
+.large img { 
+    width: 7em; 
+}
