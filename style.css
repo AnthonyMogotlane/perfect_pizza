@@ -1,23 +1,115 @@
-body {
-    background: #6969B3;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+body {
+    background: #ffedd8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+}
+
+/* Default styles */
+.container {
+    max-width: 1000px;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+li {
+    list-style: none;
+}
+
+/* Text styles */
 h1 {
-    color: #c7f9cc;
+    color: #583101;
 }
 
 h2 {
-    color: #80ED99;
+    color: #603808;
 }
 
 h3 {
-    color: #22577A;
+    color: #6f4518;
 }
 
 h4 {
-    color: #38A3A5;
+    color: #8b5e34;
+}
+/*............................................................*/
+/* Header styles */
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+.cart h4 {
+    text-align: center;
+    margin: 5px;
+}
+
+table {
+    width: 500px;
+}
+
+table, th, td {
+    border: none;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: start;
+}
+
+tr:nth-child(odd) {
+    background: #f3d5b5;
+}
+
+.btn {
+    border: none;
+    border-radius: 3px;
+    background: #8b5e34;
+    color: #ffedd8;
+    padding: 3px;
+    cursor: pointer;
+}
+
+/*............................................................*/
+/* Main styles */
+.specials {
+    display: flex;
+    column-gap: 10px;
+}
+
+.specials div{
+    flex: 1;
+}
+
+.small,
+.medium,
+.large {
+    position: relative;
+    background: #f3d5b5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    box-shadow: 0 4px 8px #583101;
+}
+
+.info {
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Pizza sizes */
 .small img { 
     width: 4em; 
 }
@@ -29,3 +121,13 @@ h4 {
 .large img { 
     width: 7em; 
 }
+/*............................................................*/
+/* Footer styles */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    background: #f3d5b5;
+}
+/*............................................................*/
+/* https://coolors.co/palette/ffedd8-f3d5b5-e7bc91-d4a276-bc8a5f-a47148-8b5e34-6f4518-603808-583101 */
