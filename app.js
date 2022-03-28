@@ -1,9 +1,31 @@
+//variables
 const removeBtn = document.querySelector(".remove-btn");
 const table = document.querySelector(".table");
 const addBtn = document.querySelector(".add-btn");
 const price = document.querySelector(".price");
 const total = document.querySelector(".total");
 const tBody = document.querySelector("tbody");
+
+const cart = document.querySelector(".cart");
+const hideBtn = document.querySelector(".hide-btn");
+const showBtn = document.querySelector(".show-btn");
+
+
+
+//hide cart
+showBtn.style.display = "none";
+const hideCart = () => {
+    cart.style.visibility = "hidden";
+    showBtn.style.display = "inline";
+}
+hideBtn.addEventListener("click", hideCart);
+//show cart
+const showCart = () => {
+    cart.style.visibility = "visible";
+    showBtn.style.display = "none";
+}
+showBtn.addEventListener("click", showCart);
+
 
 function addItem() { 
     let smallPrice = 80;
@@ -15,7 +37,7 @@ function addItem() {
     tr.innerHTML = `
         <td>1x</td>
         <td>Small pizzas</td>
-        <td>${smallPrice += }</td>
+        <td>80</td>
         <td class="remove"><button class="btn remove-btn">remove</button></td>
     `;
     table.appendChild(tr);
