@@ -46,6 +46,21 @@ h4 {
     align-items: center;
 }
 
+.cartTotal {
+    margin-top: 1em;
+}
+
+.cart {
+    border: solid #8b5e34 1px;
+    padding: .2em;
+    border-radius: .3em;
+    margin-top: 1em;
+}
+
+.lower-btn {
+    margin-top: .3em;
+}
+
 .cart h4 {
     text-align: center;
     margin: 5px;
@@ -146,6 +161,4 @@ tr:nth-child(odd) {
         flex-direction: column;
         row-gap: 10px;
     }
-
-
 }
