@@ -18,39 +18,46 @@
       <div class="cart">
         <h4>Shopping cart</h4>
         <table class="table">
-          <tr>
-            <th>Quantity</th>
-            <th>Type</th>
-            <th>Price</th>
-            <th></th>
-          </tr>
-          <tr class="table-row">
-            <td>1x</td>
-            <td>Small pizzas</td>
-            <td>80.00</td>
-            <td class="remove"><button class="btn remove-btn">remove</button></td>
-          </tr>
-          <tr>
-            <td>3x</td>
-            <td>Medium pizzas</td>
-            <td>210.00</td>
-            <td><button class="btn" >remove</button></td>
-          </tr>
-          <tr>
-            <td>2x</td>
-            <td>Large pizzas</td>
-            <td>210.00</td>
-            <td><button class="btn">remove</button></td>
-          </tr>
-          <tr>
+          <thead>
+            <tr>
+              <th>Quantity</th>
+              <th>Type</th>
+              <th>Price</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+
+            <tr class="table-row">
+              <td>1x</td>
+              <td>Small pizzas</td>
+              <td class="price">80.00</td>
+              <td class="remove"><button class="btn">remove</button></td>
+            </tr>
+            <tr>
+              <td>3x</td>
+              <td>Medium pizzas</td>
+              <td class="price">210.00</td>
+              <td class="remove"><button class="btn" >remove</button></td>
+            </tr>
+            <tr>
+              <td>2x</td>
+              <td>Large pizzas</td>
+              <td class="price">210.00</td>
+              <td class="remove"><button class="btn">remove</button></td>
+            </tr>
+            <tr>
+          </tbody>
+          <tfoot>
             <td colspan="2">
               <strong>Total</strong>
             </td>
-            <td>
-              <strong>300.00</strong>
+            <td >
+              <strong class="total">0</strong>
             </td>
             <td></td>
           </tr>
+          </tfoot>
         </table>
         <div>
           <button class="btn">Check out</button>
