@@ -81,9 +81,9 @@ table, th, td {
     text-align: start;
 }
 
-tr:nth-child(odd) {
+/* tr:nth-child(odd) {
     background: #f3d5b5;
-}
+} */
 
 .btn {
     border: none;
