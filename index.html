@@ -13,7 +13,7 @@
       <div class="cartTotal">
         <strong>Grand total:</strong>
         <span>R300.00</span>
-        <a href="#" class="btn">Show cart</a>
+        <a href="#" class="show-btn btn">Show cart</a>
       </div>
       <div class="cart">
         <h4>Shopping cart</h4>
@@ -27,11 +27,10 @@
             </tr>
           </thead>
           <tbody>
-
             <tr class="table-row">
-              <td>1x</td>
-              <td>Small pizzas</td>
-              <td class="price">80.00</td>
+              <td class="quantity" data-label="Qty">1x</td>
+              <td class="type" data-label="Type">Small pizzas</td>
+              <td class="price" data-label="Price">80.00</td>
               <td class="remove"><button class="btn">remove</button></td>
             </tr>
             <tr>
@@ -60,8 +59,8 @@
           </tfoot>
         </table>
         <div class="lower-btn">
-          <button class="check-btn btn">Check out</button>
           <button class="hide-btn btn">Hide cart</button>
+          <button class="remove-all btn">Remove all</button>
         </div>
       </div>
     </div>
@@ -80,7 +79,7 @@
           </ul>  
         </div>
         <div class="orderBox">
-          <button class="btn" style="margin-left: auto">Order medium pizza</button>
+          <button class="add-btn btn" style="margin-left: auto">Order medium pizza</button>
         </div>
       </div>
       <div class="large">
@@ -96,7 +95,7 @@
           </ul> 
         </div>
         <div class="orderBox" >
-          <button class="btn" style="margin-left: auto">Order large pizza</button>
+          <button class="add-btn btn" style="margin-left: auto">Order large pizza</button>
         </div>
       </div>
       <div class="small">

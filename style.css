@@ -81,9 +81,9 @@ table, th, td {
     text-align: start;
 }
 
-/* tr:nth-child(odd) {
+tbody tr:nth-child(odd) {
     background: #f3d5b5;
-} */
+}
 
 .btn {
     border: none;
@@ -126,7 +126,6 @@ table, th, td {
     justify-content: center;
     align-items: center;
 }
-
 
 /* Pizza sizes */
 .small img { 
